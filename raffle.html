@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./IceCream1/icon.png" type="image/x-icon">
+    <title>Raffle</title>
+    <link rel="icon" type="icon" href="./IceCream1/logo.png">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="header_globar">
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="information.html">More Information</a></li>
+                <li><a href="benefitsTips.html">Benefits and Tips</a></li>
+                <li><a href="#">Raffle</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="./IceCream1/logo.png" alt="Logo1">
+        </div>
+    </header>
+    <main class="main_raffle">
+        <div class="container">
+            <h1 class="title">Raffle</h1>
+            <h2 class="subtitle">You can collaborate to hold an exhibition event and participate in a raffle to win an easel</h2>
+            
+            <div class="Div-map">
+                <div class="map-container">
+                    <div class="map">
+                        <p>Our location is located at:</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d211504.23620594345!2d-118.61176891328127!3d34.07582780000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b8c77a14d387%3A0x60bb529e7654289d!2sSalt%20%26%20Straw!5e0!3m2!1sen!2sco!4v1718720152162!5m2!1sen!2sco" width="300" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="form-container1">
+                    <form action="show_data.html" method="get">
+                        <label for="First">
+                            <input type="text" placeholder="First Name" name="First" id="First" value="" >
+                        </label>
+                        <label for="Last">
+                            <input type="text" placeholder="Last Name" name="Last" id="Last" value="">
+                        </label>
+                        <label for="ChooseMeetOrZoom">
+                            Choose Meet Or Zoom
+                            <select name="select" placeholder="Select" id="">
+                                <option value="Meet">Meet</option>
+                                <option value="Zoom">Zoom</option>
+
+                            </select>
+                            
+                        </label>
+                        <!-- <input type="select"  placeholder="Choose Meet or Zoom" id="Zoom" value=""> -->
+                        <label>
+                            <input name="Date" type="date" placeholder="Choose Date" id="Date" value="">
+                        </label>
+                        
+                        <div class="radio-group">
+                            <p>Payment Options</p>
+                            <label><input type="radio" name="payment" value="Cash"> Cash</label>
+                            <label><input type="radio" name="payment" value="Credit"> Credit Card</label>
+                            <label><input type="radio" name="payment" value="debit"> Debit Card</label>
+                        </div>
+                        
+                        <textarea placeholder="Message (Optional)" name="Message" id="Message"></textarea>
+                        
+                        <div class="checkbox-group">
+                            <label><input name="checkbox" type="checkbox"> I accept terms and conditions...</label>
+                            <button class="send" type="submit">Send</button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<footer>
+    <p>Eddy -- Vargas</p>
+</footer>
+</html>
